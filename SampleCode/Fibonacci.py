@@ -21,3 +21,6 @@ def getFibo2(number):
     return result
 
 getFibo(100)
+
+myFibo = getFibo2(100)
+print("this is the result by calling the myFibo2() function: {0}".format(myFibo))
