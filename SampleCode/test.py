@@ -1,4 +1,7 @@
-name = input("please enter your name:")
-print(name)
+x = "global"
 
-print("I will change some thing here  by zujiang")
+def foo():
+    global x
+    x = x * 2
+    print(x)
+foo()

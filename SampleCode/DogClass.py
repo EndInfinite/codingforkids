@@ -5,7 +5,9 @@ class Dog:
         self.name = name
         self.tricks = []
         self.color = ""
-        
+    
+    def __str__(self):
+        return "Dog " + self.name
 
     def addTrick(self, trick):
         self.tricks.append(trick)
@@ -28,6 +30,9 @@ dog2.setColor("brown")
 print(dog1.name)
 print(dog1.color)
 print(list(dog1.tricks))
+print(dog1)
+
+print("\n")
 
 print(dog2.name)
 print(dog2.color)
