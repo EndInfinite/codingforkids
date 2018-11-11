@@ -15,3 +15,7 @@ for myfriendname in namelist:
 
 print(count1)
 print(count2)
+
+"""#Define a list containing 10 names of your friends, check and record the count of your friends 
+whose name has 12 or more characters, as well as your friends whose name has less than 12 characters,
+then print out the two respective counts."""
