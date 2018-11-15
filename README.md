@@ -1,5 +1,4 @@
-# codingforLESBIANS ( Xiu Ping and  )
-store the exercise code
+# codingforGays
 
 zujiang made some change to test git commit to remote
 
