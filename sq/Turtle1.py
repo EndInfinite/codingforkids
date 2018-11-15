@@ -1,6 +1,6 @@
 from turtle import*
 shape("turtle")
-speed(2)
+speed(10)
 pencolor("white")
 pensize(6)
 
