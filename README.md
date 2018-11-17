@@ -7,7 +7,7 @@
 * abs( ): return an absolute value of a numeric value
 * round( ): return an rounded value of a numeric value
 * min( ) and max( ): return a smallest/biggest item of a list 
-* pow(x, y): returns the value of x to the power of y
+* pow(x, y): returns the value of x to the power of y (same as x**y)
 * sorted( ): sort a list in ascending order
 * sum( ): sum a list with numeric numbers
 * len( ): return the number of characters in string, or the number of elements in a list
