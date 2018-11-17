@@ -1,6 +1,7 @@
 # codingforkids
 
 ##Popular Python functions:
+
 print( ): print an output message
 input( ): to take an input from the user (in string format even the input is a number)
 range( ): return a list of a sequence of integers, you can define start, stop, step
@@ -16,6 +17,7 @@ type( ): return the type of the variable
 help(other function): display the help message of a given function
 
 ##Other useful functions
+
 str.format( ): output a formatted string with variables
 randint(a, b): return a random integer in range [a, b] including both ends (need to import random)
 random(): return a random value between 0 to 1 (need to import random)
@@ -30,7 +32,9 @@ directionary.keys( ): returns a list of all the keys in the dictionary
 disctionary.clear( ): clear the entire directory
 datetime.now( ):  get the current date (need to import datetime)
 
+
 ##Some tips
+
 use help(math) function to get all the methods in math package
 use help(math.factorial) function to get the info on how to use factorial()  
 Use import this to see the full list of The Zen of Python
