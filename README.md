@@ -1,24 +1,24 @@
 # codingforkids
 
 ## Popular Python functions:
-1. print( ): print an output message
-2. input( ): to take an input from the user (in string format even the input is a number)
-3. range( ): return a list of a sequence of integers, you can define start, stop, step
-4. abs( ): return an absolute value of a numeric value
-5. round( ): return an rounded value of a numeric value
-6. min( ) and max( ): return a smallest/biggest item of a list 
-7. pow(x, y): returns the value of x to the power of y
-8. sorted( ): sort a list in ascending order
-9. sum( ): sum a list with numeric numbers
-10. len( ): return the number of characters in string, or the number of elements in a list
-11. open(file name, mode): open a file in mode r, w, x, a
-12. type( ): return the type of the variable  
-13. help(other function): display the help message of a given function
+* print( ): print an output message
+* input( ): to take an input from the user (in string format even the input is a number)
+* range( ): return a list of a sequence of integers, you can define start, stop, step
+* abs( ): return an absolute value of a numeric value
+* round( ): return an rounded value of a numeric value
+* min( ) and max( ): return a smallest/biggest item of a list 
+* pow(x, y): returns the value of x to the power of y
+* sorted( ): sort a list in ascending order
+* sum( ): sum a list with numeric numbers
+* len( ): return the number of characters in string, or the number of elements in a list
+* open(file name, mode): open a file in mode r, w, x, a
+* type( ): return the type of the variable  
+* help(other function): display the help message of a given function
 
 ## Other useful functions
 * str.format( ): output a formatted string with variables
 * randint(a, b): return a random integer in range [a, b] including both ends (need to import random)
-* random(): return a random value between 0 to 1 (need to import random)
+* random( ): return a random value between 0 to 1 (need to import random)
 * list.index(“abc”): return the position at the first occurrence of “abc” in list
 * list.append(item), list.insert(item), list.remove(item): add/insert/remove a item in a list
 * list.clear( ): clear the entire list
@@ -32,12 +32,11 @@
 
 
 ## Some tips
-
-use help(math) function to get all the methods in math package
-use help(math.factorial) function to get the info on how to use factorial()  
-Use import this to see the full list of The Zen of Python
-Use ctrl + z, then enter to exit Python REPL
-Use ctrl + c to break the infinite loop in REPL
+* use help(math) function to get all the methods in math package
+* use help(math.factorial) function to get the info on how to use factorial()  
+* Use import this to see the full list of The Zen of Python
+* Use ctrl + z, then enter to exit Python REPL
+* Use ctrl + c to break the infinite loop in REPL
 
 
 
