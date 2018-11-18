@@ -9,4 +9,6 @@ pow(x,y)
 sorted()
 sum()
 len()
-open
+open(file name, mode)
+type()
+help(other function)
