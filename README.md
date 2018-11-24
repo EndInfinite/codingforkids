@@ -38,6 +38,10 @@
 * Use ctrl + z, then enter to exit Python REPL
 * Use ctrl + c to break the infinite loop in REPL
 
+## Data for practices:
+* 7316717653133062491922511967442657474235534912493496353520312774506326239578318016944801869478851843
+
+
 
 
 
