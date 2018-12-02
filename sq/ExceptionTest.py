@@ -8,7 +8,7 @@ def convertToInt2(s):
         x = int(s)
         print("conversion is successful, the converted value is:", x)
         return x
-    except ValueError
+    except ValueError:
         print("conversion failed, unable to convert '{0}' to an integer.".format(s))
         return -1
 
