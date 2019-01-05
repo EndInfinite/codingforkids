@@ -68,5 +68,5 @@ def divide(s, t):
 #print(j)
 #k = convertToInt4([1, 2, 3])
 #print(k)
-#l = divide(4, 0)
-#print(l)
+l = divide(4, 0)
+print(l)
