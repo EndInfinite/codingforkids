@@ -1,3 +1,5 @@
+'''use "Brute Force" to find the result'''
+
 import math
 
 for a in range(1000):

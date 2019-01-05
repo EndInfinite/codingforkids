@@ -78,7 +78,25 @@ def readFromFile4():
     finally:
         f.close()   #ensure the file will be defintely closed either there is no error or some exception happened
 
-writeToFile()
+
+def modifyImageFile():
+    '''open a binary file (a image file) and modify it, then save your changes to the image file'''
+    try:
+        f1 = open("flower.jpg", mode="rb")     #binary mode doens't take any encoding
+        fileData = bytearray(f1.read())
+        for i in range(2000, 3000):
+            fileData[i] = 0x30
+        #myChange = bytes(b'\x00') #set 100 bytes with 0
+        #fileData.write(myChange)
+        f2 = open("modifiedflower.jpg", mode="wb")
+        f2.write(fileData)
+    except Exception as ex:
+        print("Exception happened when reading the file. The error message is: {0}".format(str(ex)))
+    finally:
+        f1.close()   #ensure the file will be defintely closed either there is no error or some exception happened
+        f2.close()
+
+#writeToFile()
 #writeToFile2()
 #writeToFile3()
 #writeToFile4()
@@ -87,3 +105,4 @@ writeToFile()
 #readFromFile2()
 #readFromFile3()
 #readFromFile4()
+modifyImageFile()
