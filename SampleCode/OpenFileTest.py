@@ -80,16 +80,15 @@ def readFromFile4():
 
 
 def modifyImageFile():
-    '''open a binary file (a image file) and modify it, then save your changes to the image file'''
+    '''open a binary file (a image file) and modify it, then save your changes to a new image file'''
     try:
         f1 = open("flower.jpg", mode="rb")     #binary mode doens't take any encoding
-        fileData = bytearray(f1.read())
-        for i in range(2000, 3000):
-            fileData[i] = 0x30
-        #myChange = bytes(b'\x00') #set 100 bytes with 0
-        #fileData.write(myChange)
+        fileData = f1.read()
+        byteData = bytearray(fileData)
+        for i in range(15000, 15100):
+            byteData[i] = 0xfe
         f2 = open("modifiedflower.jpg", mode="wb")
-        f2.write(fileData)
+        f2.write(byteData)
     except Exception as ex:
         print("Exception happened when reading the file. The error message is: {0}".format(str(ex)))
     finally:
