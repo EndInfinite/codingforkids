@@ -19,5 +19,9 @@
 			"path": "yxg"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.linting.pylintArgs": ["----extension-pkg-whitelist=1xml"]
+	}
+	
+	
 }
