@@ -1,0 +1,22 @@
+myDict = {}
+
+for i in range(3):
+    name = input("What's your name?")
+    game = input("What's your fav. game?")
+    myDict[name] = game
+        
+f = open("C:\\Users\Lenovo\Documents\gitrepo\codingforkids\wlsk/a.txt", mode = "wt", encoding="utf-8")
+
+for key in myDict.keys():
+    game = myDict[key]
+    f.write(key + ": " + game)
+
+f.close()
+
+f = open("C:\\Users\Lenovo\Documents\gitrepo\codingforkids\wlsk/a.txt", "r")
+for i in f:
+    f.readline()
+f.seek(0)
+f.close()
+
+print(open("C:\\Users\Lenovo\Documents\gitrepo\codingforkids\wlsk/a.txt").read())
