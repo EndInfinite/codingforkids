@@ -13,7 +13,7 @@ def writeToFile():
 
 
 def writeToFile2():
-    '''delete the content in the file if any, then write the below new content intot it'''
+    '''delete the content in the file if any, then write the below new content into it'''
     f = open("myfile.txt", mode="wt", encoding="utf-8")  #try encoding="utf-8", or encoding="ascii"
     f.write("PSLE is finally over!\n")
     f.write("郭靖的降龙十八掌天下无敌。\n")
@@ -95,7 +95,7 @@ def modifyImageFile():
         f1.close()   #ensure the file will be defintely closed either there is no error or some exception happened
         f2.close()
 
-#writeToFile()
+writeToFile()
 #writeToFile2()
 #writeToFile3()
 #writeToFile4()
@@ -104,4 +104,4 @@ def modifyImageFile():
 #readFromFile2()
 #readFromFile3()
 #readFromFile4()
-modifyImageFile()
+#modifyImageFile()
