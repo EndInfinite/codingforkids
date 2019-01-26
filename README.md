@@ -43,22 +43,27 @@
 
 ## File Manipunation
 * Use Python built-in function to open a file:
-	open(file, mode, encoding)
-    		file: the file name (with path)
-            mode: read/write/append + binary/text
-            encoding: only for text (for example: utf-8)
+	```python
+    open(file, mode, encoding)
+    ```
+    > file: the file name (with path)
+    > mode: read/write/append + binary/text
+    > encoding: only for text (for example: utf-8)
 * Write some text to a file:
-	f = open(“myfile.txt”, mode=“wt”, encoding=“utf-8”)
-    f.write(“my name is greggy\n”)                                              #write a string to the file
-    f.writelines([“my first line\n”, “my second line\n”, “my third line\n”])	#write multiple lines
+    ```python
+	f = open('myfile.txt', mode='wt', encoding='utf-8')
+    f.write("my name is greggy\n")                                              #write a string to the file
+    f.writelines(['my first line\n', 'my second line\n', 'my third line\n'])	#write multiple lines
     f.close()           #always close your file after you finish to use it
+    ```
 * Read some text from a file:
-    f = open(“myfile.txt”, mode=“rt”, encoding=“utf-8”)	
+    ```python
+    f = open('myfile.txt', mode='rt', encoding='utf-8')	
     s = f.readline()		#read one line of text
     lineList = f.readlines()	#read all lines of text into a list	
     f.seek(0)			#go back to the beginning of the file so we can read it again
     f.close()           #always close your file after you finish to use it
-
+    ```
 
 
 ## Some tips
